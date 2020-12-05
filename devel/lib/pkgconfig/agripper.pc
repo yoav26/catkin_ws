@@ -1,0 +1,8 @@
+prefix=/home/yoav/catkin_ws/devel
+
+Name: agripper
+Description: Description of agripper
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

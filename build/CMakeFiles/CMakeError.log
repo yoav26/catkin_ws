@@ -1,0 +1,169 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81b07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81b07.dir/build.make CMakeFiles/cmTC_81b07.dir/build
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81b07.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_81b07.dir/CheckSymbolExists.c.o   -c /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_81b07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81b07.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_81b07.dir/CheckSymbolExists.c.o  -o cmTC_81b07 -rdynamic 
+CMakeFiles/cmTC_81b07.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_81b07.dir/build.make:97: recipe for target 'cmTC_81b07' failed
+make[1]: *** [cmTC_81b07] Error 1
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81b07/fast' failed
+make: *** [cmTC_81b07/fast] Error 2
+
+File /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9924a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9924a.dir/build.make CMakeFiles/cmTC_9924a.dir/build
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9924a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9924a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9924a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9924a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9924a.dir/CheckFunctionExists.c.o  -o cmTC_9924a -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9924a.dir/build.make:97: recipe for target 'cmTC_9924a' failed
+make[1]: *** [cmTC_9924a] Error 1
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9924a/fast' failed
+make: *** [cmTC_9924a/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21231/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21231.dir/build.make CMakeFiles/cmTC_21231.dir/build
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21231.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_21231.dir/CheckSymbolExists.c.o   -c /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21231
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21231.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_21231.dir/CheckSymbolExists.c.o  -o cmTC_21231 -rdynamic 
+CMakeFiles/cmTC_21231.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_21231.dir/build.make:97: recipe for target 'cmTC_21231' failed
+make[1]: *** [cmTC_21231] Error 1
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21231/fast' failed
+make: *** [cmTC_21231/fast] Error 2
+
+File /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f72d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f72d0.dir/build.make CMakeFiles/cmTC_f72d0.dir/build
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f72d0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f72d0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f72d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72d0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f72d0.dir/CheckFunctionExists.c.o  -o cmTC_f72d0 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f72d0.dir/build.make:97: recipe for target 'cmTC_f72d0' failed
+make[1]: *** [cmTC_f72d0] Error 1
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f72d0/fast' failed
+make: *** [cmTC_f72d0/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ddaa/fast"
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0ddaa.dir/build.make CMakeFiles/cmTC_0ddaa.dir/build
+make[2]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ddaa.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0ddaa.dir/CheckSymbolExists.c.o   -c /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0ddaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ddaa.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0ddaa.dir/CheckSymbolExists.c.o  -o cmTC_0ddaa -rdynamic 
+CMakeFiles/cmTC_0ddaa.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0ddaa.dir/build.make:97: recipe for target 'cmTC_0ddaa' failed
+make[2]: *** [cmTC_0ddaa] Error 1
+make[2]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ddaa/fast' failed
+make[1]: *** [cmTC_0ddaa/fast] Error 2
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+File /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc809/fast"
+make[1]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dc809.dir/build.make CMakeFiles/cmTC_dc809.dir/build
+make[2]: Entering directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc809.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dc809.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc809
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc809.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_dc809.dir/CheckFunctionExists.c.o  -o cmTC_dc809 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dc809.dir/build.make:97: recipe for target 'cmTC_dc809' failed
+make[2]: *** [cmTC_dc809] Error 1
+make[2]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc809/fast' failed
+make[1]: *** [cmTC_dc809/fast] Error 2
+make[1]: Leaving directory '/home/yoav/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+

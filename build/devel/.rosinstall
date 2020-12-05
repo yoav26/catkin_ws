@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yoav/catkin_ws/build/devel/setup.sh

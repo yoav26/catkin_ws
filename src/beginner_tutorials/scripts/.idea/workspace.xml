@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e92a3d61-ab5b-4a0f-8901-8412a8c4cdb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/listener.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/listener.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/points_to_vis.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/points_to_vis.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/talker.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/talker.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/teleop_key.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/beginner_tutorials/CMakeFiles/teleop_key.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/catkin_generated/order_packages.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/catkin_generated/order_packages.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/catkin_make.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/gtest/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/gtest/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/gtest/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/gtest/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_client/CMakeFiles/float64_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_client/CMakeFiles/float64_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_client/CMakeFiles/subscriber_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_client/CMakeFiles/subscriber_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build/rosserial/rosserial_windows/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build/rosserial/rosserial_windows/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talker.py" beforeDir="false" afterPath="$PROJECT_DIR$/talker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/teleop_key.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/teleop_key.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1XwAFoXsj6Tld8iI6TsjNwgrGRy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/save2file.pyc" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.plain_projection_trial">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="force" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/force.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jacobi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jacobi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plain_projection_trial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plain_projection_trial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometric_func" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometric_func/plot2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save2file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save2file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plain_projection_trial" />
+        <item itemvalue="Python.force" />
+        <item itemvalue="Python.jacobi" />
+        <item itemvalue="Python.save2file" />
+        <item itemvalue="Python.plot2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e92a3d61-ab5b-4a0f-8901-8412a8c4cdb0" name="Default Changelist" comment="" />
+      <created>1581948831779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581948831779</updated>
+      <workItem from="1581948833387" duration="903000" />
+      <workItem from="1582811487761" duration="1280000" />
+      <workItem from="1582814588112" duration="1792000" />
+      <workItem from="1583052925767" duration="258000" />
+      <workItem from="1583053725661" duration="10425000" />
+      <workItem from="1583227300571" duration="5626000" />
+      <workItem from="1583243556202" duration="610000" />
+      <workItem from="1583305447747" duration="2654000" />
+      <workItem from="1583309639562" duration="585000" />
+      <workItem from="1583310616650" duration="534000" />
+      <workItem from="1583311369596" duration="12253000" />
+      <workItem from="1583401988775" duration="13063000" />
+      <workItem from="1583656333374" duration="10400000" />
+      <workItem from="1583683455309" duration="2461000" />
+      <workItem from="1583700032109" duration="4476000" />
+      <workItem from="1583764459472" duration="10480000" />
+      <workItem from="1583780808257" duration="742000" />
+      <workItem from="1583919934784" duration="955000" />
+      <workItem from="1583918490071" duration="1093000" />
+      <workItem from="1584874465963" duration="1800000" />
+      <workItem from="1584880054018" duration="6283000" />
+      <workItem from="1584898796048" duration="6395000" />
+      <workItem from="1584962496450" duration="2407000" />
+      <workItem from="1584975702891" duration="5695000" />
+      <workItem from="1584986139041" duration="2989000" />
+      <workItem from="1584991322994" duration="105000" />
+      <workItem from="1584992591460" duration="653000" />
+      <workItem from="1585209035048" duration="915000" />
+      <workItem from="1585314365601" duration="2220000" />
+      <workItem from="1585384902395" duration="2796000" />
+      <workItem from="1585388190020" duration="649000" />
+      <workItem from="1585391478369" duration="4306000" />
+      <workItem from="1585397270506" duration="4129000" />
+      <workItem from="1585465018702" duration="10562000" />
+      <workItem from="1585480268876" duration="17875000" />
+      <workItem from="1586070207273" duration="9369000" />
+      <workItem from="1586097361253" duration="7313000" />
+      <workItem from="1588502476414" duration="1935000" />
+      <workItem from="1588578346993" duration="3750000" />
+      <workItem from="1588587319226" duration="1361000" />
+      <workItem from="1588610550979" duration="4208000" />
+      <workItem from="1588620044546" duration="2050000" />
+      <workItem from="1588775608672" duration="2982000" />
+      <workItem from="1589791586792" duration="2332000" />
+      <workItem from="1589820609256" duration="2336000" />
+      <workItem from="1589962172274" duration="9378000" />
+      <workItem from="1590935754903" duration="2494000" />
+      <workItem from="1590950293811" duration="1280000" />
+      <workItem from="1591609537590" duration="1167000" />
+      <workItem from="1592126683291" duration="2594000" />
+      <workItem from="1592137231774" duration="575000" />
+      <workItem from="1592138009003" duration="1610000" />
+      <workItem from="1592142684006" duration="1311000" />
+      <workItem from="1592150468138" duration="1731000" />
+      <workItem from="1592372115408" duration="5754000" />
+      <workItem from="1592387818637" duration="5286000" />
+      <workItem from="1592396180310" duration="3482000" />
+      <workItem from="1592472825929" duration="2243000" />
+      <workItem from="1592475795419" duration="1578000" />
+      <workItem from="1594729522962" duration="5286000" />
+      <workItem from="1594735198213" duration="3510000" />
+      <workItem from="1595155609302" duration="9541000" />
+      <workItem from="1595243760206" duration="4092000" />
+      <workItem from="1595251880706" duration="1674000" />
+      <workItem from="1595271088303" duration="1809000" />
+      <workItem from="1595273697013" duration="392000" />
+      <workItem from="1595312344556" duration="1039000" />
+      <workItem from="1595326293657" duration="861000" />
+      <workItem from="1595404975171" duration="12045000" />
+      <workItem from="1595426668739" duration="2323000" />
+      <workItem from="1595434383804" duration="412000" />
+      <workItem from="1595509320935" duration="660000" />
+      <workItem from="1595601286439" duration="236000" />
+      <workItem from="1595870313815" duration="1686000" />
+      <workItem from="1598359019505" duration="1361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geometric_func/WorkSpace.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/location.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plain_projection_trial.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="n" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scripts$plain_projection_trial.coverage" NAME="plain_projection_trial Coverage Results" MODIFIED="1595423264906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scripts$force.coverage" NAME="force Coverage Results" MODIFIED="1594749469781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scripts$CHECKS_SCRIPT.coverage" NAME="CHECKS SCRIPT Coverage Results" MODIFIED="1583056193668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

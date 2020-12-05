@@ -1,0 +1,2 @@
+set(beginner_tutorials_MESSAGE_FILES "/home/yoav/catkin_ws/src/robotic_arm/msg/Num.msg")
+set(beginner_tutorials_SERVICE_FILES "/home/yoav/catkin_ws/src/robotic_arm/srv/AddTwoInts.srv")
