@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import math
-import numpy as np
+
 import rospy
 from std_msgs.msg import Float32MultiArray, Int32MultiArray
 #  from length2steps import length2steps
@@ -22,10 +22,14 @@ def move_node():
     # rate = rospy.Rate(35)  # 10hz
 
     while not rospy.is_shutdown():
-        [x, y, z] = input('Insert location [x,y,z]: ')
+        [x, y, z] = input('Insert location [X(0, 520),Y(0, 410),Z(0, 560)]: ')
         # x = input('Insert location [x,y,z]: ')
-        if x > 550 or x < 0:
-            rospy.logwarn('Out of range, insert value [0, 600]')
+        if x > 520 or x < 0:
+            rospy.logwarn('X Out of range, insert value [0, 520]')
+        elif y > 410 or y < 0:
+            rospy.logwarn('Y Out of range, insert value [0, 410]')
+        elif z > 560 or y < 0:
+            rospy.logwarn('Z Out of range, insert value [0, 560]')
         else:
             steps = length2steps(x, y, z)
             rospy.loginfo(steps)

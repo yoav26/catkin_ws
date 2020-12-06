@@ -157,11 +157,9 @@ void loop() {
   stepNow[1] = stepper2.currentPosition();
   stepNow[2] = stepper3.currentPosition();
   current_step_msg.data = stepNow;
-  stepper1.run();
-  //if (stepNow[0] <= 1300 && abs(stepNow[1]) <= 910) {// CHANGE !!! NOT GOOD
-  stepper2.run();
-  //}
   
+  stepper1.run();
+  stepper2.run();
   stepper3.run();
   nh.spinOnce();
 //  delay(1);
@@ -175,19 +173,19 @@ void loop() {
 void homing (){
   if (stepper1.currentPosition() == 0)
     {
-        nh.loginfo("Im at the home position.");
+        nh.loginfo("Im at the home position.1.");
         stepper1.disableOutputs(); //disable power
     }
   else
     {
         stepper1.enableOutputs();
         stepper1.setMaxSpeed(75); //set speed manually to 400. In this project 400 is 400 step/sec = 1 rev/sec.
-        stepper1.moveTo(-6500); //set abolute distance to move
+        stepper1.moveTo(-6800); //set abolute distance to move
         //runallowedX = false; //disable running // ADD COND. TO MAIN ?    
     }
   if (stepper2.currentPosition() == 0)
     {
-        nh.loginfo("Im at the home position.");
+        nh.loginfo("Im at the home position.2.");
         stepper2.disableOutputs(); //disable power
     }
   else
@@ -198,7 +196,7 @@ void homing (){
     }
   if (stepper3.currentPosition() == 0)
     {
-        nh.loginfo("Im at the home position.");
+        nh.loginfo("Im at the home position.3.");
         stepper3.disableOutputs(); //disable power
     }
   else
@@ -251,7 +249,8 @@ void stop_motor2()//function activated by the pressed microswitch
 void rev_motor2()//function activated by the pressed microswitch
 {
   
-  stepper2.stop(); //stop motor 
+  stepper2.stop(); //stop motor
+  stepper1.setCurrentPosition(5334); // limit 500 mm
   stepper2.move(-4); // limit
   nh.loginfo("No.2 REACHED END LIMIT");
   digitalWrite(13, !digitalRead(13));
@@ -272,8 +271,15 @@ void stop_motor3()//function activated by the pressed microswitch
 void rev_motor3()//function activated by the pressed microswitch
 {
   
-  stepper3.stop(); //stop motor 
+  stepper3.stop(); //stop motor
+  stepper3.setCurrentPosition(2804); // limit 520 mm
   stepper3.move(-4); // limit
   nh.loginfo("No.3 REACHED END LIMIT");
   digitalWrite(13, !digitalRead(13));
 }
+
+
+/* TODO 
+ * change offsets to a variabls for user to change
+ * check diffrent current with diff offsets
+ */
