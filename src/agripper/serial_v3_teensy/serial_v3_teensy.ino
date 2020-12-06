@@ -185,6 +185,28 @@ void homing (){
         stepper1.moveTo(-6500); //set abolute distance to move
         //runallowedX = false; //disable running // ADD COND. TO MAIN ?    
     }
+  if (stepper2.currentPosition() == 0)
+    {
+        nh.loginfo("Im at the home position.");
+        stepper2.disableOutputs(); //disable power
+    }
+  else
+    {
+        stepper2.enableOutputs();
+        stepper2.setMaxSpeed(75); //set speed manually to 400. In this project 400 is 400 step/sec = 1 rev/sec.
+        stepper2.moveTo(-5500); //set abolute distance to move
+    }
+  if (stepper3.currentPosition() == 0)
+    {
+        nh.loginfo("Im at the home position.");
+        stepper3.disableOutputs(); //disable power
+    }
+  else
+    {
+        stepper3.enableOutputs();
+        stepper3.setMaxSpeed(75); //set speed manually to 400. In this project 400 is 400 step/sec = 1 rev/sec.
+        stepper3.moveTo(-3000); //set abolute distance to move
+    }
 }
 
 
@@ -198,7 +220,7 @@ void stop_motor1()//function activated by the pressed microswitch
   stepper1.setCurrentPosition(0);  // reset position
   stepper1.move(3);
   nh.loginfo("No.1 REACHED START & STOPED, Position sets to 0"); //feedback towards the serial port
-  digitalWrite(13, HIGH-digitalRead(13));
+  digitalWrite(13, !digitalRead(13));
   stepper1.disableOutputs();//disable power
 }
 
@@ -210,22 +232,19 @@ void rev_motor1()//function activated by the pressed microswitch
   stepper1.setCurrentPosition(6760); // limit 520 mm
   stepper1.move(-4);
   nh.loginfo("No.1 REACHED END LIMIT");
-  digitalWrite(13, HIGH-digitalRead(13));
+  digitalWrite(13, !digitalRead(13));
 }
 
 
 
 void stop_motor2()//function activated by the pressed microswitch
 {
-  
-  //Stop motor, disable outputs; here we should also reset the numbers if there are any
-  //runallowed = false; //disable running // ADD COND. TO MAIN ?
   stepper2.stop(); //stop motor 
   stepper2.setCurrentPosition(0);  // reset position
-  stepper2.move(-2);
+  stepper2.move(20);
   nh.loginfo("No.2 REACHED START & STOPED, Position sets to 0"); //feedback towards the serial port
-  digitalWrite(13, HIGH-digitalRead(13));
-  stepper2.disableOutputs();//disable power
+  digitalWrite(13, !digitalRead(13));
+  //stepper2.disableOutputs();//disable power
 }
 
 
@@ -233,24 +252,20 @@ void rev_motor2()//function activated by the pressed microswitch
 {
   
   stepper2.stop(); //stop motor 
-  //stepper2.moveTo(500); // limit
+  stepper2.move(-4); // limit
   nh.loginfo("No.2 REACHED END LIMIT");
-  digitalWrite(13, HIGH-digitalRead(13));
+  digitalWrite(13, !digitalRead(13));
 }
 
 
 
 void stop_motor3()//function activated by the pressed microswitch
 {
-  
-  //Stop motor, disable outputs; here we should also reset the numbers if there are any
-  //runallowed = false; //disable running // ADD COND. TO MAIN ?
   stepper3.stop(); //stop motor 
   stepper3.setCurrentPosition(0);  // reset position
-  stepper3.move(-2);
+  stepper3.move(3);
   nh.loginfo("No.3 REACHED START & STOPED, Position sets to 0"); //feedback towards the serial port
-  digitalWrite(13, HIGH-digitalRead(13));
-  stepper3.disableOutputs();//disable power
+  digitalWrite(13, !digitalRead(13));
 }
 
 
@@ -258,7 +273,7 @@ void rev_motor3()//function activated by the pressed microswitch
 {
   
   stepper3.stop(); //stop motor 
-  //stepper3.moveTo(500); // limit
+  stepper3.move(-4); // limit
   nh.loginfo("No.3 REACHED END LIMIT");
-  digitalWrite(13, HIGH-digitalRead(13));
+  digitalWrite(13, !digitalRead(13));
 }

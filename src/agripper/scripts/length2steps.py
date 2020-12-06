@@ -11,7 +11,7 @@ def length2steps(x, y, z):
 
     st1 = int(x * e)
     st2 = -int(y * e)
-    st3 = -int(z * Cst3)  # TODO change scale
+    st3 = -int(z * Cst3)
     steps = [st1, st2, st3]
     #  print(steps)
     return steps

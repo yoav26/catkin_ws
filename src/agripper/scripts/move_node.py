@@ -4,7 +4,8 @@ import math
 import numpy as np
 import rospy
 from std_msgs.msg import Float32MultiArray, Int32MultiArray
-from length2steps import length2steps
+#  from length2steps import length2steps
+
 
 steps = [0, 0, 0]
 steps_msg = Float32MultiArray()
@@ -31,6 +32,22 @@ def move_node():
             steps_msg.data = steps
             steps_pub.publish(steps_msg)
     rospy.spin()
+
+
+STEPS_PER_REV = 400  # [S][steps/rev]
+LEN_PER_REV = 30  # [D][mm/rev]
+e = STEPS_PER_REV / LEN_PER_REV  # [e][steps/mm]
+Cst3 = 400 / 80  # [steps/mm]
+
+
+def length2steps(x, y, z):
+    #  steps1 = [0, 0, 0]
+    st1 = int(x * e)
+    st2 = int(y * e)
+    st3 = int(z * Cst3)
+    steps_f = [st1, st2, st3]
+    #  print(steps)
+    return steps_f
 
 
 if __name__ == '__main__':
