@@ -4,8 +4,8 @@
 		    <param name="baud"              type="int"                  value="57600"/>
 		    </node>
 
-		<node pkg="beginner_tutorials" type="tourqe_enable.py" name="tourqe_enable" output="screen" />	
-		<node pkg="beginner_tutorials" type="key_read_move.py" name="key_read_move" output="screen" />
-		<node pkg="beginner_tutorials" type="teleop_key" name="teleop_key" output="screen" />
+		<node pkg="agripper" type="read_location.py" name="read_location" output="screen" />
+		<node pkg="agripper" type="move_node.py" name="move_node" output="screen" launch-prefix="gnome-terminal --command" />
+		<node pkg="agripper" type="home.py" name="home" output="screen" />
 
 	</launch>
