@@ -17,9 +17,9 @@ anyway the 'serial_v3_teensy.ino' should be uploaded to the teensy boad.
   - home - execute homing
  
 2. rosrun
- each node can be run seperatly with 'rosrun'
- rosrun [package_name] [node_name]
- for example:
- rosrun agripper read_location.py
+ - each node can be run seperatly with 'rosrun'
+ - rosrun [package_name] [node_name]
+ - for example:
+ - rosrun agripper read_location.py
 
 ### ROS kinetic, ubuntu 14.04, Python 2.7.12
