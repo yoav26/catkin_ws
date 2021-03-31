@@ -11,15 +11,15 @@ anyway the 'serial_v3_teensy.ino' should be uploaded to the teensy boad.
  in terminal run the commend:
  ruslaunch start.launch
  it will launch 4 nodes:
-  1. serial node (the teensy board as a node)
-  2. read_location - publish the current position in steps unit
-  3. move_node - get user input (x,y,z) and execute after pressing Enter
-  4. home - execute homing
+  - serial node (the teensy board as a node)
+  - read_location - publish the current position in steps unit
+  - move_node - get user input (x,y,z) and execute after pressing Enter
+  - home - execute homing
  
- 2. rosrun
-  each node can be run seperatly with 'rosrun'
-  rosrun [package_name] [node_name]
-  for example:
-  rosrun agripper read_location.py
+2. rosrun
+ each node can be run seperatly with 'rosrun'
+ rosrun [package_name] [node_name]
+ for example:
+ rosrun agripper read_location.py
 
 ### ROS kinetic, ubuntu 14.04, Python 2.7.12
